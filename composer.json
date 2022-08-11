@@ -1,0 +1,19 @@
+{
+    "name": "naftalivo/emailcontact",
+    "description": "Package to send emails and store to database sender information",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "naftalivo",
+            "email": "naftalivo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Naftalivo\\EmailContact\\": "src/"
+        }
+    }
+}
