@@ -15,5 +15,12 @@
         "psr-4": {
             "Naftalivo\\EmailContact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Naftalivo\\EmailContact\\EmailContactServiceProvider"
+            ]
+        }
     }
 }
