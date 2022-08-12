@@ -13,7 +13,8 @@ class EmailContactServiceProvider extends ServiceProvider{
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->mergeConfigFrom(__DIR__.'/config/emailcontact.php','emailcontact');
         $this->publishes([
-            __DIR__.'/config/emailcontact.php' => config_path('emailcontact.php')
+            __DIR__.'/config/emailcontact.php' => config_path('emailcontact.php'),
+            __DIR__.'/views' => resource_path('views/vendor/emailcontact')
         ]);
     }
 
