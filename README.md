@@ -33,7 +33,9 @@ Add in config > app.php this line at the end of providers
 ## Test Package
 
 To test, go to 
-- localhost:8000 and add /emailcontact
+- run php artisan serve
+
+- in localhost:8000 and add /emailcontact
 
 - configure your email service data in the .env file
 
